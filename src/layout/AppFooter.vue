@@ -58,7 +58,7 @@
                     <div class="copyright">
                         &copy; {{year}}
                         <a href="https://www.scrybe.ml" target="_blank"
-                          rel="noopener">Made with love by Rocket Labs Inc.</a>
+                          rel="noopener">Made with <i class="fa fa-heart" aria-hidden="true" style="color:red"></i> by Rocket Labs Inc.</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -69,6 +69,16 @@
                         </li>
                         <li class="nav-item">
                             <a href="https://medium.com/@scrybe.ml" class="nav-link" target="_blank" rel="noopener">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.termsfeed.com/privacy-policy/2d5e1314a2ac49520e7a0e894d739cfe"
+                              class="nav-link" target="_blank"
+                              rel="noopener">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://medium.com/@scrybe.ml"
+                              class="nav-link" target="_blank"
+                              rel="noopener">Terms of Use</a>
                         </li>
                     </ul>
                 </div>

@@ -72,11 +72,14 @@
     }
 
     .shape-skew {
-        transform: skewY(-8deg);
+        transform: skewY(0deg);
+        //transform: skewY(-8deg);
+        // Note to self: I've mucked with the skew function.
         transform-origin: 0;
 
         span {
-            transform: skew(8deg);
+            transform: skew(0deg);
+            //transform: skew(8deg);
         }
     }
 

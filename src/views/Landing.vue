@@ -4,7 +4,8 @@
         <div class="position-relative">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
-                <div class="shape shape-style-1 bg-gradient-default shape-default shape-skew">
+                <div class="shape shape-style-1 bg-gradient-default
+                  shape-default shape-skew">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -121,6 +122,25 @@
                 </div>
             </div>
         </section>
+        <section class="section section-lg bg-gradient-default">
+            <div class="container">
+                <div class="row align-items-center">
+                    <h2 style="text-align:center" class="display-3 text-white">Track and organize
+                      automatically</h2>
+                    <div class="col-md-12">
+                        <img src="img/brand/plots screenshot.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-12 text-white">
+                          <p style="text-align:center">Data scientists often lose critical information
+                          such as all the models they've built and discarded,
+                          data exploration and features. Scrybe helps
+                          automate tracking of all this critical context.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid align-items-center">
@@ -230,7 +250,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
-                        <h2 class="display-3">The Amazing Team!</h2>
+                        <h2 class="display-3">The Team</h2>
                         <p class="lead text-muted">We're a company that loves
                         working on cool technology, working and hiring smart
                         people and embracing an open and diverse culture.</p>

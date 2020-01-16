@@ -15,7 +15,11 @@
                   <card class="border-0" shadow body-classes="py-5">
                       <h2 class="text-primary text-uppercase"
                         align="center">Our Company</h2>
-                      <h5 class="text-primary mt-5" >How we got started</h5>
+                      <h5 class="text-primary mt-5" >Mission</h5>
+                      <p class="description mt-3">
+                      We're building the Atlassian toolchain for data science.
+                      </p>
+                      <h5 class="text-primary" >How we got started</h5>
                       <p class="description mt-3">
                       We started off as data scientists and engineers at
                       companies like Amazon, Google, Adobe, Microsoft and
@@ -28,9 +32,7 @@
                       libraries, standardizing
                       experimenting reporting templates, establishing coding
                       guidelines for reproducibility, etc. In the end, none scaled.
-                      The project timelines became less predictable and
-                      subsequent versions of
-                      models involved repeated work. <br>
+                      <br>
                       <span>With the rapid increase of ML across industries, we felt
                       this to be a compelling problem.</span>
                       

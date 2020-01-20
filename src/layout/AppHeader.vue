@@ -67,7 +67,7 @@
                 <span class="btn-inner--icon">
                   <i class="ni ni-user-run mr2"></i>
                 </span>
-                        <span class="nav-link-inner--text">Get started</span>
+                        <span class="nav-link-inner--text"> Schedule a demo</span>
                     </a>
                 </li>
             </ul>

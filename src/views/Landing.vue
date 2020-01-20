@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <div class="position-relative">
+        <div class="position-relative ">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
                 <div class="shape shape-style-1 bg-gradient-default
@@ -20,7 +20,7 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-md-6 order-md-2">
-                                <img src="img/2women_humaaans_discuss.png" class="img-fluid floating">
+                                <img src="img/women_preso_discussing.png" class="img-fluid floating">
                             </div>
                             <div class="col-md-6 order-md-1">
                                 <h1 class="display-3  text-white">Make your
@@ -50,7 +50,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--200">
+        <section class="section section-lg pt-lg-0 mt--300">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -124,8 +124,8 @@
         </section>
         <section class="section section-lg bg-gradient-default">
             <div class="container">
-                <div class="row align-items-center">
-                    <h2 style="text-align:center" class="display-3 text-white">Track and organize
+                <div class="row align-items-center justify-content-center">
+                    <h2 class="display-3 text-white text-align:center">Track and organize
                       automatically</h2>
                     <div class="col-md-12">
                         <img src="img/brand/plots screenshot.png" class="img-fluid">
@@ -141,17 +141,17 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg">
+        <section class="section section-lg bg-gradient-default">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
                         <img src="img/header-img.png" class="img-fluid floating">
                     </div>
                     <div class="col-md-6 order-md-1">
-                        <div class="pr-md-5">
+                        <div class="pr-md-5 text-white">
                             <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
                                   rounded></icon>
-                            <h3>Maximize Data Science Productivity</h3>
+                            <h3 class="text-white">Maximize Data Science Productivity</h3>
                             <p>Data scientists often lose critical information
                             such as all the models they've built and discarded,
                             data exploration and features. Scrybe helps
@@ -160,21 +160,21 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
-                                        <h6 class="mb-0">Track all your
+                                        <h6 class="mb-0  text-white">Track all your
                                           experiments</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
-                                        <h6 class="mb-0">Search
+                                        <h6 class="mb-0 text-white">Search
                                           datasets, features and models</h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
-                                        <h6 class="mb-0">Compare
+                                        <h6 class="mb-0 text-white">Compare
                                           your best models</h6>
                                     </div>
                                 </li>
@@ -246,12 +246,12 @@
             </div>
         </section>
         -->
-        <section class="section section-lg">
+        <section class="section section-lg bg-gradient-default">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
-                        <h2 class="display-3">The Team</h2>
-                        <p class="lead text-muted">We're a company that loves
+                        <h2 class="display-3 text-white">The Team</h2>
+                        <p class="lead text-muted text-white">We're a company that loves
                         working on cool technology, working and hiring smart
                         people and embracing an open and diverse culture.</p>
                     </div>
@@ -264,7 +264,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Chandra Prakash</span>
+                                    <span class="d-block mb-1 text-white">Chandra Prakash</span>
                                     <small class="h6 text-muted">The Deep
                                       Learning ninja</small>
                                 </h5>
@@ -288,7 +288,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Himanshu
+                                    <span class="d-block mb-1 text-white">Himanshu
                                       Chaudhary</span>
                                     <small class="h6 text-muted">The backend
                                       Rockstar</small>
@@ -313,7 +313,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Manjot Pahwa</span>
+                                    <span class="d-block mb-1 text-white">Manjot Pahwa</span>
                                     <small class="h6 text-muted">All things
                                       customers</small>
                                 </h5>
@@ -338,7 +338,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Manish Sachdev</span>
+                                    <span class="d-block mb-1 text-white">Manish Sachdev</span>
                                     <small class="h6 text-muted">Founder and CEO</small>
                                 </h5>
                                 <div class="mt-3">

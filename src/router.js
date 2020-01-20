@@ -5,6 +5,7 @@ import AppFooter from "./layout/AppFooter";
 import Company from "./views/Company.vue";
 import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
+import ScheduleDemo from "./views/ScheduleDemo.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 
@@ -46,6 +47,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Profile,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/message",
+      name: "message",
+      components: {
+        header: AppHeader,
+        default: ScheduleDemo,
         footer: AppFooter
       }
     },

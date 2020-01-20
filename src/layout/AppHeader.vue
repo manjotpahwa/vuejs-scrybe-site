@@ -29,7 +29,8 @@
                       <span class="nav-link-inner--text">About Us</span>
                     </a>
                     <div class="dropdown-menu">
-                        <a href="/company" class="dropdown-item">Company</a>
+                        <router-link to="/company"
+                          class="dropdown-item">Company</router-link>
                         <a href="https://scrybe-docs.readthedocs.io/en/latest/releases.html" target="_blank"
                           class="dropdown-item">Releases</a>
                         <a href="/careers"
@@ -62,7 +63,7 @@
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="http://scrybe-docs.readthedocs.io/" target="_blank" rel="noopener"
+                    <a href="/messageus" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="ni ni-user-run mr2"></i>

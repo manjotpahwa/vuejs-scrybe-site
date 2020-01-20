@@ -70,6 +70,30 @@
     }
 }
 
+.footer.has-cards-no-skew {
+    overflow: hidden;
+    padding-top: 400px;
+    margin-top: -420px;
+    position: relative;
+    background: transparent;
+    pointer-events: none;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 600px;
+        height: 2000px;
+        background: theme-color("secondary");
+    }
+
+    .container {
+        pointer-events: auto;
+        position: relative;
+    }
+}
+
 .nav-footer {
     .nav-link {
         font-size: $font-size-sm;

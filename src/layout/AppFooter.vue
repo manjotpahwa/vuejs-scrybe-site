@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer has-cards">
+    <footer class="footer has-cards-no-skew">
         <!--
         <div class="container container-lg">
             <div class="row">

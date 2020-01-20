@@ -23,15 +23,15 @@
                                 <img src="img/women_preso_discussing.png" class="img-fluid floating">
                             </div>
                             <div class="col-md-6 order-md-1">
-                                <h1 class="display-3  text-white">Make your
-                                  data science org productive and 
-                                  transparent.
+                                <h1 class="display-3  text-white">Home for data
+                                  science artifacts
                                   <!-- <span>completed with examples</span>-->
                                 </h1>
-                                <p class="lead  text-white">Scrybe is a home
-                                for all your data science artifacts. Scrybe's
+                                <p class="lead  text-white">Scrybe's
                                 automated experiment tracking takes the burden
-                                off your data scientists.</p>
+                                off your data scientists, making them more
+                                productive, fostering collboration and making
+                                Machine Learning development transparent.</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
                                                  href="http://scrybe-docs.readthedocs.io/"
@@ -57,7 +57,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--300">
+        <section class="section section-lg pt-lg-0 mt--200">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -105,7 +105,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
+                                    <icon name="ni ni-spaceship" type="warning" rounded class="mb-4">
                                     </icon>
                                     <h6 class="text-warning
                                       text-uppercase">Scrybe Enterprise</h6>
@@ -362,50 +362,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-shaped my-0 overflow-hidden">
-            <div class="shape shape-style-3 bg-gradient-default shape-skew">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="container pt-lg pb-300">
-            </div>
-        </section>
-        <section class="section section-lg pt-lg-0 section-contact-us">
-            <div class="shape shape-style-3 bg-gradient-default shape-skew">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center mt--300">
-                    <div class="col-lg-8">
-                        <card gradient="secondary" shadow body-classes="p-lg-5">
-                            <h4 class="mb-1">Want to send us a message?</h4>
-                            <p class="mt-0">We will get back to you soon.</p>
-                            <base-input class="mt-5"
-                                        alternative
-                                        placeholder="Your name"
-                                        addon-left-icon="ni ni-user-run">
-                            </base-input>
-                            <base-input alternative
-                                        placeholder="Email address"
-                                        addon-left-icon="ni ni-email-83">
-                            </base-input>
-                            <base-input class="mb-4">
-                                    <textarea class="form-control form-control-alternative" name="name" rows="4"
-                                              cols="80" placeholder="Type a message..."></textarea>
-                            </base-input>
-                            <base-button type="default" round block size="lg">
-                                Send Message
-                            </base-button>
-                        </card>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 <template>
-    <div>
-
+  <div>
         <div class="position-relative ">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
@@ -57,7 +56,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg pt-lg-0 mt--200">
+        <section class="section section-lg pt-lg-0 mt--200 bg-gradient-default">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -304,7 +303,6 @@
                 </div>
             </div>
         </section>
-
     </div>
 </template>
 

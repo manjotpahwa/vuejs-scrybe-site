@@ -35,8 +35,8 @@
                           class="dropdown-item">Team</router-link>
                         <a href="https://scrybe-docs.readthedocs.io/en/latest/releases.html" target="_blank"
                           class="dropdown-item">Releases</a>
-                        <a href="/careers"
-                          class="dropdown-item">Careers</a>
+                        <router-link to="/careers"
+                          class="dropdown-item">Careers</router-link>
                     </div>
                 </li>
             </ul>

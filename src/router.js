@@ -3,6 +3,7 @@ import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Company from "./views/Company.vue";
+import Careers from "./views/Careers.vue";
 import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Profile from "./views/Profile.vue";
@@ -39,6 +40,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Company,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/careers",
+      name: "careers",
+      components: {
+        header: AppHeader,
+        default: Careers,
         footer: AppFooter
       }
     },

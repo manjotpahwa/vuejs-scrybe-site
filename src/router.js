@@ -5,9 +5,10 @@ import AppFooter from "./layout/AppFooter";
 import Company from "./views/Company.vue";
 import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
-import ScheduleDemo from "./views/ScheduleDemo.vue";
-import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import Register from "./views/Register.vue";
+import ScheduleDemo from "./views/ScheduleDemo.vue";
+import Team from "./views/Team.vue";
 
 Vue.use(Router);
 
@@ -38,6 +39,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Company,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/team",
+      name: "team",
+      components: {
+        header: AppHeader,
+        default: Team,
         footer: AppFooter
       }
     },

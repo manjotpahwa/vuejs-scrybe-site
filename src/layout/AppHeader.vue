@@ -58,13 +58,13 @@
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="/messageus" target="_blank" rel="noopener"
+                    <router-link to="/message" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
-                <span class="btn-inner--icon">
-                  <i class="ni ni-user-run mr2"></i>
-                </span>
+                      <span class="btn-inner--icon">
+                        <i class="ni ni-user-run mr2"></i>
+                      </span>
                         <span class="nav-link-inner--text"> Schedule a demo</span>
-                    </a>
+                    </router-link>
                 </li>
             </ul>
         </base-nav>

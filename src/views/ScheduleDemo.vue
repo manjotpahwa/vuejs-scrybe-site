@@ -19,20 +19,33 @@
                             <p class="mt-0">We will get back to you soon.</p>
                             <form method="post"
                               action="https://airform.io/manjotpahwa@scrybe.ml">
-                            <base-input class="mt-5"
-                                        alternative
-                                        placeholder="Your name"
-                                        addon-left-icon="ni ni-user-run">
-                            </base-input>
-                            <base-input alternative
-                                        placeholder="Work Email address"
-                                        addon-left-icon="ni ni-email-83">
-                            </base-input>
-                            <base-button type="default" round block size="lg"
-                              >
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="email" class="form-control"
+                                id="formName"
+                                aria-describedby="nameHelp"
+                                placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="Your work email" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <base-button type="default" round block size="lg">
                                 Send Message
                             </base-button>
                             </form>
+                            <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                <h3>We will get in touch soon!</h3>
+                            </div>
+                            <div id="error_message"
+                                    style="width:100%; height:100%; display:none; ">
+                                        <h3>Error</h3>
+                                        Sorry there was an error sending your form.
+                            </div>
                         </card>
                     </div>
                 </div>

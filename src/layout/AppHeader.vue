@@ -43,7 +43,7 @@
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon"
-                       href="https://www.linkedin.com/scrybe_ml" target="_blank" rel="noopener"
+                       href="https://www.linkedin.com/company/scrybe-ml" target="_blank" rel="noopener"
                        data-toggle="tooltip" title="Like us on Linkedin">
                         <i class="fa fa-linkedin-square"></i>
                         <span class="nav-link-inner--text d-lg-none">Linkedin</span>

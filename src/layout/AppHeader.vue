@@ -51,7 +51,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon"
-                       href="https://twitter.com/scrybe_ml" target="_blank" rel="noopener"
+                       href="https://twitter.com/ScrybeML" target="_blank" rel="noopener"
                        data-toggle="tooltip" title="Follow us on Twitter">
                         <i class="fa fa-twitter-square"></i>
                         <span class="nav-link-inner--text d-lg-none">Twitter</span>

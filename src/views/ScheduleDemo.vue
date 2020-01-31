@@ -46,6 +46,26 @@
                                         <h3>Error</h3>
                                         Sorry there was an error sending your form.
                             </div>
+                            <airform email="manjotpahwa@scrybe.ml">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="email" class="form-control"
+                                id="formName"
+                                aria-describedby="nameHelp"
+                                placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="Your work email" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <base-button type="default" round block size="lg">
+                                Send Message
+                            </base-button>
+                            </airform>
                         </card>
                     </div>
                 </div>

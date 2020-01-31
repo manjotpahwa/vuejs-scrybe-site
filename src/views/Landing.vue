@@ -24,7 +24,6 @@
                             <div class="col-md-6 order-md-1">
                                 <h1 class="display-3  text-white">Home for data
                                   science artifacts
-                                  <!-- <span>completed with examples</span>-->
                                 </h1>
                                 <p class="lead  text-white">Scrybe's
                                 automated experiment tracking takes the burden
@@ -128,21 +127,37 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg bg-gradient-default">
+        <section class="section section-lg my-0 bg-gradient-default">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <h2 class="display-3 text-white text-align:center">Track and organize
-                      automatically</h2>
-                    <div class="col-md-12">
-                        <img src="img/brand/plots screenshot.png" class="img-fluid">
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-12 text-white">
-                          <p style="text-align:center">Data scientists often lose critical information
-                          such as all the models they've built and discarded,
-                          data exploration and features. Scrybe helps
-                          automate tracking of all this critical context.</p>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-12">
+                        <div class="row align-items-center justify-content-center">
+                            <h2 class="display-3 text-white text-align:center">Track and organize
+                              automatically</h2>
+                        </div>
+                        <div class="rounded shadow-lg overflow-hidden">
+                            <b-carousel id="carousel1"
+                                        controls
+                                        :interval="5000"
+                                        img-width="1024"
+                                        img-height="480"
+                                        v-model="slide"
+                                        indicators>
+                                <!-- Text slides with image -->
+                                <b-carousel-slide
+                                  img-src="img/brand/plots screenshot.png">
+                                  <div class="col-md-12 text-white">
+                                      <p style="text-align:center">Organize plots</p>
+                                  </div>
+                                </b-carousel-slide>
+                                <b-carousel-slide
+                                  img-src="img/brand/Experiments_view_clean.png">
+                                  <div class="col-md-12 text-white">
+                                      <p style="text-align:center">Capture experiments</p>
+                                  </div>
+                                </b-carousel-slide>
+                            </b-carousel>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -193,9 +208,16 @@
     </div>
 </template>
 
+
 <script>
+import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
+import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+
 export default {
   name: "home",
-  components: {}
+  components: {
+    BCarousel,
+    BCarouselSlide
+  }
 };
 </script>

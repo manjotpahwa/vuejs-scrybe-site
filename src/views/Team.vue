@@ -49,7 +49,7 @@
                                       Rockstar</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="https://twitter.com/manjotpahwa" type="primary" icon="fa fa-twitter" rounded
+                                    <base-button tag="a" href="https://twitter.com/ed_heck" type="primary" icon="fa fa-twitter" rounded
                                                  icon-only></base-button>
                                     <base-button tag="a" href="mailto:himanshu@scrybe.ml" type="primary" icon="ni ni-email-83" rounded
                                                  icon-only></base-button>

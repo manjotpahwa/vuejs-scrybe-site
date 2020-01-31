@@ -13,8 +13,8 @@
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="https://www.scrybe.ml/aboutus" class="nav-link" target="_blank" rel="noopener">About
-                                Us</a>
+                            <router-link to="/team" class="nav-link" rel="noopener">About
+                                Us</router-link>
                         </li>
                         <li class="nav-item">
                             <a href="https://medium.com/@scrybe.ml" class="nav-link" target="_blank" rel="noopener">Blog</a>

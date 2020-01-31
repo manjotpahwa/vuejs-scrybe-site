@@ -156,6 +156,12 @@
                                       <p style="text-align:center">Capture experiments</p>
                                   </div>
                                 </b-carousel-slide>
+                                <b-carousel-slide
+                                  img-src="img/brand/ModelDetails_XGB_withcode.png">
+                                  <div class="col-md-12 text-white">
+                                      <p style="text-align:center">Capture experiments</p>
+                                  </div>
+                                </b-carousel-slide>
                             </b-carousel>
                         </div>
                     </div>

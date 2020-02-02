@@ -28,7 +28,7 @@
                                 <p class="lead  text-white">Scrybe's
                                 automated experiment tracking takes the burden
                                 off your data scientists, making them more
-                                productive, fostering collboration and making
+                                productive, fostering collaboration and making
                                 Machine Learning development transparent.</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"

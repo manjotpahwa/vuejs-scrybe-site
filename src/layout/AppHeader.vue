@@ -58,13 +58,13 @@
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <router-link to="/message" target="_blank" rel="noopener"
+                    <a href="http://dashboard.scrybe.ml/#/" target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
                       <span class="btn-inner--icon">
                         <i class="ni ni-user-run mr2"></i>
                       </span>
-                        <span class="nav-link-inner--text"> Schedule a demo</span>
-                    </router-link>
+                        <span class="nav-link-inner--text">Get started</span>
+                    </a>
                 </li>
             </ul>
         </base-nav>

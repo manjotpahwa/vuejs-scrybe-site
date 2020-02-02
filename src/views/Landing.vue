@@ -117,7 +117,8 @@
                                         rounded>collaboration</badge>
                                         <badge type="warning" rounded>tracking</badge>
                                     </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
+                                    <base-button tag="a"
+                                      href="mailto:manjotpahwa@scrybe.ml" type="warning" class="mt-4">
                                         Contact us
                                     </base-button>
                                 </card>

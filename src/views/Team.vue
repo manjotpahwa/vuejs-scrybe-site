@@ -20,8 +20,10 @@
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1 text-white">Chandra Prakash</span>
-                                    <small class="h6 text-muted">The Deep
-                                      Learning ninja</small>
+                                    <small class="h6 text-muted">Previously
+                                      deep learning researcher at Adobe
+                                      Research Labs, ran Aurablue Labs &
+                                      senior engineer, Zendrive</small>
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="https://twitter.com/manjotpahwa" type="warning" icon="fa fa-twitter" rounded
@@ -45,8 +47,9 @@
                                 <h5 class="title">
                                     <span class="d-block mb-1 text-white">Himanshu
                                       Chaudhary</span>
-                                    <small class="h6 text-muted">The backend
-                                      Rockstar</small>
+                                    <small class="h6 text-muted">Before
+                                      Scrybe, senior engineer at Amazon and
+                                    staff engineer at Zendrive</small>
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="https://twitter.com/ed_heck" type="primary" icon="fa fa-twitter" rounded
@@ -69,8 +72,9 @@
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1 text-white">Manjot Pahwa</span>
-                                    <small class="h6 text-muted">All things
-                                      customers</small>
+                                    <small class="h6 text-muted">Tech lead for
+                                    technical infrastructure team at Google and
+                                    Product Manager for Kubernetes in the past</small>
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="https://twitter.com/manjotpahwa" type="info" icon="fa fa-twitter" rounded
@@ -94,10 +98,14 @@
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1 text-white">Manish Sachdev</span>
-                                    <small class="h6 text-muted">CEO</small>
+                                    <small class="h6 text-muted">Ex-senior engineer at
+                                      Microsoft, Engineering
+                                      leadership at Zendrive, built team of
+                                      100+ engineers</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="https://twitter.com/manjotpahwa" type="success" icon="fa fa-twitter" rounded
+                                    <base-button tag="a"
+                                                 href="https://twitter.com/manishpsachdev" type="success" icon="fa fa-twitter" rounded
                                                  icon-only></base-button>
                                     <base-button tag="a" href="mailto:msachdev@scrybe.ml"
                                                          type="success"
